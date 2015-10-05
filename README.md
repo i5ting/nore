@@ -2,6 +2,8 @@
 
 a node copy with https://github.com/karan/joe
 
+我承认这很无聊，我很奇怪joe这个项目为啥能火，能有1793（截止20151005）个star，真是见了鬼了，简单的要死，至于么？有一个小时，连文档都能写完了。。。
+
 :running: A .gitignore magician in your command line 
 
 ![](http://i.imgur.com/y8g506n.png?1)
