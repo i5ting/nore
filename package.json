@@ -1,6 +1,6 @@
 {
   "name": "nore",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a node copy with https://github.com/karan/joe",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/i5ting/nore#readme",
   "dependencies": {
+    "dirw": "^1.0.3",
     "inflected": "^1.1.6"
   }
 }

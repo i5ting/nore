@@ -33,10 +33,16 @@ $ nore java >> .gitignore
 $ nore java node osx > .gitignore    # saves a new .gitignore file for multiple languages
 ```
 
-### List all available files(todo)
+### List all available files
 
 ```
 $ nore ls    # OR `nore list`
+```
+
+with grep
+
+```
+$ nore ls|grep Swif
 ```
 
 ## Contributing
