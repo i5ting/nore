@@ -1,21 +1,16 @@
 #!/usr/bin/env node
 var fs = require('fs')
-var path = require("path");
-var Inflector = require('inflected');
-
-var argv = process.argv;
+  , path = require("path")
+  , Inflector = require('inflected')
+  , file_path = __dirname
+  , current_path = process.cwd()
+  , argv = process.argv;
+  
 argv.shift();
 
-var file_path = __dirname;
-var current_path = process.cwd();
-
-var home_dir = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
-
-
 var lang = Inflector.camelize(argv[1])
-// console.log(lang);
 
-
+// opt simple parser
 for(var i in argv){
   var _argv = argv[i];
   if(_argv == 'ls'  || _argv == 'list'){
@@ -34,7 +29,6 @@ fs.readFile(lang_path, {encoding:'utf8',flag:'r'}, function (err, data) {
   console.log(data);
 });
 
-
 function list(){
   var ignores_dir = __dirname + "/data/gitignore/";
 
@@ -43,18 +37,17 @@ function list(){
     
     var all = "";
     resolvedPath.forEach(function(p){
-      var item = one(p);
+      var item = get_name(p);
       if(item){
         all += item + ',';
       }
-      
     })
     
     console.log(all);
   });
 }
 
-function one(p){
+function get_name(p){
   path = p.split('.gitignore')
   if(path.length == 1){
     return ;
@@ -68,6 +61,7 @@ function help(){
   console.log(name + ": " +desc);
   console.log();
   console.log("Usages:");
+  
   [ 
     "nore java or nore java > .gitignore"
     ,"nore ls or nore list"
