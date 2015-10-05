@@ -2,6 +2,8 @@
 
 a node copy with https://github.com/karan/joe
 
+[![npm version](https://badge.fury.io/js/nore.svg)](http://badge.fury.io/js/nore)
+
 我承认这很无聊，我很奇怪joe这个项目为啥能火，能有1793（截止20151005）个star，真是见了鬼了，简单的要死，至于么？有一个小时，连文档都能写完了。。。
 
 :running: A .gitignore magician in your command line 
