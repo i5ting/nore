@@ -1,6 +1,6 @@
 {
   "name": "nore",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "a node copy with https://github.com/karan/joe",
   "main": "index.js",
   "scripts": {

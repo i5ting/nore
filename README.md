@@ -1,6 +1,26 @@
-# nore
+# Nore
 
 a node copy with https://github.com/karan/joe
+
+:running: A .gitignore magician in your command line 
+
+![](http://i.imgur.com/y8g506n.png?1)
+
+## Nore
+
+
+A `.gitignore` magician in your command line. Nore generates `.gitignore` files from the command line for you.
+
+![](http://i.imgur.com/ghmJLUP.gif)
+
+## Features
+
+- Written in nodejs
+- Easy to [install](https://github.com/i5ting/nore#installation)
+- Stupidly [easy to use](https://github.com/i5ting/nore#usage)
+- Supports all Github-supported [`.gitignore` files](https://github.com/karan/joe#list-all-available-files)
+- Works on Mac, Linux and Windows
+- Supports other version control systems (`.hgignore`)
 
 
 ## Install
@@ -55,6 +75,7 @@ $ nore ls|grep Swif
 
 ## 版本历史
 
+- v1.1.0 doc
 - v1.0.0 初始化版本cli
 
 ## 欢迎fork和反馈
