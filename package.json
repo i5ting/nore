@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/i5ting/nore/issues"
   },
-  "homepage": "https://github.com/i5ting/nore#readme"
+  "homepage": "https://github.com/i5ting/nore#readme",
+  "dependencies": {
+    "inflected": "^1.1.6"
+  }
 }
